@@ -104,8 +104,6 @@
 
 ## Architecture 🏛
 - MVVM
-- Service Flow Diagram
-<img width="1383" alt="image" src="https://user-images.githubusercontent.com/39071796/160237472-ff2dc929-17c2-445c-8cdb-2c157f66b97d.png">
 
 <br/>
 
@@ -125,7 +123,6 @@
 <details>
 <summary>SegmentedControl & PageView</summary>
 <div markdown="1"> 
-    
     
 SegmentedControl의 인덱스와 PageView의 인덱스가 동일할 때 페이지를 같이 넘겨주려고 생각했습니다. SegmentedControl은 인덱스를 가져올 수 있어서 컨트롤을 눌렀을때 PageView의 페이지 변환이 가능했지만, 반대로 슬라이드해서 PageView에 따른 SegementedControl을 변경하려고 했을때 변경되지 않는 문제가 있었습니다. 이유는 PageView는 지금 보고있는 뷰의 인덱스를 계속 0으로 반환했기 때문입니다.
     
