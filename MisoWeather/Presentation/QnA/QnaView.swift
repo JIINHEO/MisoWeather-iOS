@@ -14,8 +14,8 @@ class QnaView: UIView {
     var item: String
     
     // MARK: - SubView
-    private lazy var animationView: AnimationView = {
-       let view = AnimationView(name: "lf20_tnqgtf5o")
+    private lazy var animationView: LottieAnimationView = {
+        let view = LottieAnimationView(name: "lf20_tnqgtf5o")
         view.frame = self.bounds
         view.contentMode = .scaleAspectFit
         view.play()

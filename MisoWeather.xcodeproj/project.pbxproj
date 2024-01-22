@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		344FF6921E8BD2EC96E8D117 /* Pods_MisoWeatherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A5B6AE1EEC2C8DD95CBCB4 /* Pods_MisoWeatherTests.framework */; };
-		692CCC67F93C067D9C09CC35 /* Pods_MisoWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C5A805E7E8155CDB039479 /* Pods_MisoWeather.framework */; };
-		763FFD8DAF1CEDE900216580 /* Pods_MisoWeather_MisoWeatherUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E634486436168330A45E6928 /* Pods_MisoWeather_MisoWeatherUITests.framework */; };
+		25D84899882A749846D9C35D /* Pods_MisoWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B697F60D197F231567F77FC /* Pods_MisoWeather.framework */; };
+		A9EF726F589119B18069281B /* Pods_MisoWeatherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF4C5C854F2FF8AD28A6305 /* Pods_MisoWeatherTests.framework */; };
 		E8132BAF2795501200A9518B /* TokenUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8132BAE2795501200A9518B /* TokenUtils.swift */; };
 		E8132BB12795863600A9518B /* RegionSelectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8132BB02795863600A9518B /* RegionSelectListView.swift */; };
 		E8132BB32795978B00A9518B /* SmallRegionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8132BB22795978B00A9518B /* SmallRegionListViewController.swift */; };
@@ -103,6 +102,7 @@
 		E8FB85ED278C2F9B0007DE27 /* MidRegionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB85EC278C2F9B0007DE27 /* MidRegionListViewController.swift */; };
 		E8FB85F0278D45DD0007DE27 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = E8FB85EF278D45DD0007DE27 /* .swiftlint.yml */; };
 		E8FC403827EA16AB009B9A89 /* CoverViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FC403727EA16AB009B9A89 /* CoverViewContoller.swift */; };
+		FC56F2114D94C8E81C59AB58 /* Pods_MisoWeather_MisoWeatherUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1286B8358F1AF5F371A4FDDA /* Pods_MisoWeather_MisoWeatherUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,15 +123,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		23A5B6AE1EEC2C8DD95CBCB4 /* Pods_MisoWeatherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MisoWeatherTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		243DB7CB5AF9BE36FE1D39A6 /* Pods-MisoWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MisoWeather.release.xcconfig"; path = "Target Support Files/Pods-MisoWeather/Pods-MisoWeather.release.xcconfig"; sourceTree = "<group>"; };
-		2E04300681B62DADACB3DB1B /* Pods-MisoWeather-MisoWeatherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MisoWeather-MisoWeatherUITests.debug.xcconfig"; path = "Target Support Files/Pods-MisoWeather-MisoWeatherUITests/Pods-MisoWeather-MisoWeatherUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		704BC52D477DF7502183D0DD /* Pods-MisoWeather-MisoWeatherUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MisoWeather-MisoWeatherUITests.release.xcconfig"; path = "Target Support Files/Pods-MisoWeather-MisoWeatherUITests/Pods-MisoWeather-MisoWeatherUITests.release.xcconfig"; sourceTree = "<group>"; };
-		72D7406057366229E8B5C147 /* Pods-MisoWeatherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MisoWeatherTests.release.xcconfig"; path = "Target Support Files/Pods-MisoWeatherTests/Pods-MisoWeatherTests.release.xcconfig"; sourceTree = "<group>"; };
-		87C5A805E7E8155CDB039479 /* Pods_MisoWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MisoWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9484E9FDF5DC1BC37A76F7D8 /* Pods-MisoWeatherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MisoWeatherTests.debug.xcconfig"; path = "Target Support Files/Pods-MisoWeatherTests/Pods-MisoWeatherTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A42591B8EC20D35C39722644 /* Pods-MisoWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MisoWeather.debug.xcconfig"; path = "Target Support Files/Pods-MisoWeather/Pods-MisoWeather.debug.xcconfig"; sourceTree = "<group>"; };
-		E634486436168330A45E6928 /* Pods_MisoWeather_MisoWeatherUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MisoWeather_MisoWeatherUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1286B8358F1AF5F371A4FDDA /* Pods_MisoWeather_MisoWeatherUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MisoWeather_MisoWeatherUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C42F915FBC0257346C6B0D /* Pods-MisoWeather-MisoWeatherUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MisoWeather-MisoWeatherUITests.release.xcconfig"; path = "Target Support Files/Pods-MisoWeather-MisoWeatherUITests/Pods-MisoWeather-MisoWeatherUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5AF4C5C854F2FF8AD28A6305 /* Pods_MisoWeatherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MisoWeatherTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B697F60D197F231567F77FC /* Pods_MisoWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MisoWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F8A7CD175323407349037F9 /* Pods-MisoWeatherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MisoWeatherTests.release.xcconfig"; path = "Target Support Files/Pods-MisoWeatherTests/Pods-MisoWeatherTests.release.xcconfig"; sourceTree = "<group>"; };
+		B52C106845097DD6A7C56EEE /* Pods-MisoWeatherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MisoWeatherTests.debug.xcconfig"; path = "Target Support Files/Pods-MisoWeatherTests/Pods-MisoWeatherTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA01ADE3DC014E139E4E8E29 /* Pods-MisoWeather-MisoWeatherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MisoWeather-MisoWeatherUITests.debug.xcconfig"; path = "Target Support Files/Pods-MisoWeather-MisoWeatherUITests/Pods-MisoWeather-MisoWeatherUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDF6F1086E2D22CAD7936077 /* Pods-MisoWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MisoWeather.debug.xcconfig"; path = "Target Support Files/Pods-MisoWeather/Pods-MisoWeather.debug.xcconfig"; sourceTree = "<group>"; };
+		DE1C36BF79B6BB70BECDD266 /* Pods-MisoWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MisoWeather.release.xcconfig"; path = "Target Support Files/Pods-MisoWeather/Pods-MisoWeather.release.xcconfig"; sourceTree = "<group>"; };
 		E8132BAE2795501200A9518B /* TokenUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenUtils.swift; sourceTree = "<group>"; };
 		E8132BB02795863600A9518B /* RegionSelectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionSelectListView.swift; sourceTree = "<group>"; };
 		E8132BB22795978B00A9518B /* SmallRegionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallRegionListViewController.swift; sourceTree = "<group>"; };
@@ -237,7 +237,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				692CCC67F93C067D9C09CC35 /* Pods_MisoWeather.framework in Frameworks */,
+				25D84899882A749846D9C35D /* Pods_MisoWeather.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,7 +245,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				344FF6921E8BD2EC96E8D117 /* Pods_MisoWeatherTests.framework in Frameworks */,
+				A9EF726F589119B18069281B /* Pods_MisoWeatherTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,34 +253,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				763FFD8DAF1CEDE900216580 /* Pods_MisoWeather_MisoWeatherUITests.framework in Frameworks */,
+				FC56F2114D94C8E81C59AB58 /* Pods_MisoWeather_MisoWeatherUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0939EC8D4ADE045D72779971 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B697F60D197F231567F77FC /* Pods_MisoWeather.framework */,
+				1286B8358F1AF5F371A4FDDA /* Pods_MisoWeather_MisoWeatherUITests.framework */,
+				5AF4C5C854F2FF8AD28A6305 /* Pods_MisoWeatherTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		63A602918AD552C7F547974B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A42591B8EC20D35C39722644 /* Pods-MisoWeather.debug.xcconfig */,
-				243DB7CB5AF9BE36FE1D39A6 /* Pods-MisoWeather.release.xcconfig */,
-				2E04300681B62DADACB3DB1B /* Pods-MisoWeather-MisoWeatherUITests.debug.xcconfig */,
-				704BC52D477DF7502183D0DD /* Pods-MisoWeather-MisoWeatherUITests.release.xcconfig */,
-				9484E9FDF5DC1BC37A76F7D8 /* Pods-MisoWeatherTests.debug.xcconfig */,
-				72D7406057366229E8B5C147 /* Pods-MisoWeatherTests.release.xcconfig */,
+				BDF6F1086E2D22CAD7936077 /* Pods-MisoWeather.debug.xcconfig */,
+				DE1C36BF79B6BB70BECDD266 /* Pods-MisoWeather.release.xcconfig */,
+				BA01ADE3DC014E139E4E8E29 /* Pods-MisoWeather-MisoWeatherUITests.debug.xcconfig */,
+				13C42F915FBC0257346C6B0D /* Pods-MisoWeather-MisoWeatherUITests.release.xcconfig */,
+				B52C106845097DD6A7C56EEE /* Pods-MisoWeatherTests.debug.xcconfig */,
+				5F8A7CD175323407349037F9 /* Pods-MisoWeatherTests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		6916AE4C490D27CA826B1594 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				87C5A805E7E8155CDB039479 /* Pods_MisoWeather.framework */,
-				E634486436168330A45E6928 /* Pods_MisoWeather_MisoWeatherUITests.framework */,
-				23A5B6AE1EEC2C8DD95CBCB4 /* Pods_MisoWeatherTests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E83E00F8279001ED00C4661A /* Data */ = {
@@ -469,7 +469,7 @@
 				E8E65BB62782D4AE00FFA0FA /* MisoWeatherUITests */,
 				E8E65B942782D4AC00FFA0FA /* Products */,
 				63A602918AD552C7F547974B /* Pods */,
-				6916AE4C490D27CA826B1594 /* Frameworks */,
+				0939EC8D4ADE045D72779971 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -620,12 +620,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8E65BBD2782D4AE00FFA0FA /* Build configuration list for PBXNativeTarget "MisoWeather" */;
 			buildPhases = (
-				E557EE9B305E5FAFB0CEDF32 /* [CP] Check Pods Manifest.lock */,
+				69BE8D6E2BE7B1E8526A564E /* [CP] Check Pods Manifest.lock */,
 				E8E65B8F2782D4AC00FFA0FA /* Sources */,
 				E8E65B902782D4AC00FFA0FA /* Frameworks */,
 				E8E65B912782D4AC00FFA0FA /* Resources */,
-				DC3BB6AFF1DAA72B1550FC0B /* [CP] Embed Pods Frameworks */,
 				E8FB85EE278D435F0007DE27 /* ShellScript */,
+				787CF7855085EFE01583D6F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -640,7 +640,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8E65BC02782D4AE00FFA0FA /* Build configuration list for PBXNativeTarget "MisoWeatherTests" */;
 			buildPhases = (
-				44CDC27265BE3F1B3C2D1B82 /* [CP] Check Pods Manifest.lock */,
+				1D5C9A04D3F215D1305616C3 /* [CP] Check Pods Manifest.lock */,
 				E8E65BA52782D4AE00FFA0FA /* Sources */,
 				E8E65BA62782D4AE00FFA0FA /* Frameworks */,
 				E8E65BA72782D4AE00FFA0FA /* Resources */,
@@ -659,11 +659,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8E65BC32782D4AE00FFA0FA /* Build configuration list for PBXNativeTarget "MisoWeatherUITests" */;
 			buildPhases = (
-				B4559AABDD71E2DA8900F343 /* [CP] Check Pods Manifest.lock */,
+				A5E80B925EADB2B264112290 /* [CP] Check Pods Manifest.lock */,
 				E8E65BAF2782D4AE00FFA0FA /* Sources */,
 				E8E65BB02782D4AE00FFA0FA /* Frameworks */,
 				E8E65BB12782D4AE00FFA0FA /* Resources */,
-				4BBBFB57B8232A4D0C610C14 /* [CP] Embed Pods Frameworks */,
+				D760C9F84CCCFBFE06DE06F5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -748,7 +748,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		44CDC27265BE3F1B3C2D1B82 /* [CP] Check Pods Manifest.lock */ = {
+		1D5C9A04D3F215D1305616C3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -770,24 +770,46 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4BBBFB57B8232A4D0C610C14 /* [CP] Embed Pods Frameworks */ = {
+		69BE8D6E2BE7B1E8526A564E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MisoWeather-MisoWeatherUITests/Pods-MisoWeather-MisoWeatherUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MisoWeather-MisoWeatherUITests/Pods-MisoWeather-MisoWeatherUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MisoWeather-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MisoWeather-MisoWeatherUITests/Pods-MisoWeather-MisoWeatherUITests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B4559AABDD71E2DA8900F343 /* [CP] Check Pods Manifest.lock */ = {
+		787CF7855085EFE01583D6F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MisoWeather/Pods-MisoWeather-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MisoWeather/Pods-MisoWeather-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MisoWeather/Pods-MisoWeather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5E80B925EADB2B264112290 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -809,43 +831,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DC3BB6AFF1DAA72B1550FC0B /* [CP] Embed Pods Frameworks */ = {
+		D760C9F84CCCFBFE06DE06F5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MisoWeather/Pods-MisoWeather-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MisoWeather-MisoWeatherUITests/Pods-MisoWeather-MisoWeatherUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MisoWeather/Pods-MisoWeather-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MisoWeather-MisoWeatherUITests/Pods-MisoWeather-MisoWeatherUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MisoWeather/Pods-MisoWeather-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E557EE9B305E5FAFB0CEDF32 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MisoWeather-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MisoWeather-MisoWeatherUITests/Pods-MisoWeather-MisoWeatherUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E8FB85EE278D435F0007DE27 /* ShellScript */ = {
@@ -1122,7 +1122,7 @@
 		};
 		E8E65BBE2782D4AE00FFA0FA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A42591B8EC20D35C39722644 /* Pods-MisoWeather.debug.xcconfig */;
+			baseConfigurationReference = BDF6F1086E2D22CAD7936077 /* Pods-MisoWeather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1153,7 +1153,7 @@
 		};
 		E8E65BBF2782D4AE00FFA0FA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 243DB7CB5AF9BE36FE1D39A6 /* Pods-MisoWeather.release.xcconfig */;
+			baseConfigurationReference = DE1C36BF79B6BB70BECDD266 /* Pods-MisoWeather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1184,7 +1184,7 @@
 		};
 		E8E65BC12782D4AE00FFA0FA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9484E9FDF5DC1BC37A76F7D8 /* Pods-MisoWeatherTests.debug.xcconfig */;
+			baseConfigurationReference = B52C106845097DD6A7C56EEE /* Pods-MisoWeatherTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1205,7 +1205,7 @@
 		};
 		E8E65BC22782D4AE00FFA0FA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72D7406057366229E8B5C147 /* Pods-MisoWeatherTests.release.xcconfig */;
+			baseConfigurationReference = 5F8A7CD175323407349037F9 /* Pods-MisoWeatherTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1226,7 +1226,7 @@
 		};
 		E8E65BC42782D4AE00FFA0FA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E04300681B62DADACB3DB1B /* Pods-MisoWeather-MisoWeatherUITests.debug.xcconfig */;
+			baseConfigurationReference = BA01ADE3DC014E139E4E8E29 /* Pods-MisoWeather-MisoWeatherUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1245,7 +1245,7 @@
 		};
 		E8E65BC52782D4AE00FFA0FA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 704BC52D477DF7502183D0DD /* Pods-MisoWeather-MisoWeatherUITests.release.xcconfig */;
+			baseConfigurationReference = 13C42F915FBC0257346C6B0D /* Pods-MisoWeather-MisoWeatherUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
